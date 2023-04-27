@@ -1,0 +1,46 @@
+/* (A) WHOLE PAGE */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: #f2f2f2;
+}
+
+/* (B) LOGIN FORM */
+form {
+  width: 400px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+form h1 {
+  font-size: 28px;
+  margin: 0 0 20px 0;
+}
+form label, form input {
+  display: block;
+  width: 100%;
+}
+form label {
+  color: #b7b7b7;
+  padding: 10px 0;
+}
+form input { padding: 10px; }
+form input[type=submit] {
+  margin-top: 20px;
+  border: 0;
+  font-weight: 700;
+  color: #fff;
+  background: #c51111;
+  cursor: pointer;
+}
+
+/* (C) ERROR */
+.error {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ff7979;
+  background: #ffdada;
+}
